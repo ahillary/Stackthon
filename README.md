@@ -1,16 +1,15 @@
-# stackathon insecuritees
+# stackathon insecuritee
 
-* By default, running `npm test` will use `boilermaker-test`, while
+- By default, running `npm test` will use `boilermaker-test`, while
   regular development uses `boilermaker`
 
 ### OAuth
 
-* To use OAuth with Google, complete the steps above with a real client
+- To use OAuth with Google, complete the steps above with a real client
   ID and client secret supplied from Google
-  * You can get them from the [Google APIs dashboard][google-apis].
+  - You can get them from the [Google APIs dashboard][google-apis].
 
 [google-apis]: https://console.developers.google.com/apis/credentials
-
 
 ## Start
 
@@ -26,8 +25,8 @@ From there, just follow your bliss.
 Ready to go world wide? Here's a guide to deployment! There are two
 supported ways to deploy in Boilermaker:
 
-* automatically, via continuous deployment with Travis.
-* "manually", from your local machine via the `deploy` script.
+- automatically, via continuous deployment with Travis.
+- "manually", from your local machine via the `deploy` script.
 
 Either way, you'll need to set up your deployment server to start.
 The steps below are also covered in the CI/CD workshop.
@@ -40,14 +39,14 @@ The steps below are also covered in the CI/CD workshop.
 
 [heroku-cli]: https://devcenter.heroku.com/articles/heroku-cli
 
-* **If you are creating a new app...**
+- **If you are creating a new app...**
 
   1.  `heroku create` or `heroku create your-app-name` if you have a
       name in mind.
   2.  `heroku addons:create heroku-postgresql:hobby-dev` to add
       ("provision") a postgres database to your heroku dyno
 
-* **If you already have a Heroku app...**
+- **If you already have a Heroku app...**
 
   1.  `heroku git:remote your-app-name` You'll need to be a
       collaborator on the app.

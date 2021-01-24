@@ -11,7 +11,7 @@ class Navbar extends Component {
     return (
       <div id="navbar">
         <div id="store-name">
-          <h1>Jamie's Hardwood and Heavy Metal</h1>
+          <h1>Insecuritee</h1>
         </div>
         <nav>
           <div id="pages">

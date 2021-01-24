@@ -39,6 +39,7 @@ class Routes extends Component {
             {/* Routes placed here are only available after logging in */}
             <Route path="/home" component={UserHome} />
             <Route path="/cart/:cartId" component={Cart} />
+            {/* Routes placed here are only available after verifying user isAdmin */}
             {isAdmin && (
               <Switch>
                 <Route exact path="/addproduct" component={AddProduct} />
@@ -49,7 +50,7 @@ class Routes extends Component {
           </Switch>
         )}
 
-        {/* Displays our Login component as a fallback */}
+        {/* Displays our Login component as a fallback route */}
         <Route component={Login} />
       </Switch>
     );
